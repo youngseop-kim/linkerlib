@@ -8,7 +8,6 @@ as i fascinated on selector system, made linker library based on uipath
 this library helps python user to use powerful uipath activities on python runtime
 with hope to have better develops on ui automation field,
 please do not use for bypassing uipath solution license policy
-KIM, YS
 '''
 
 __base_dir__ = os.path.dirname(os.path.abspath(__file__))
@@ -24,8 +23,8 @@ class AssemblyLinker(object):
     thus, this class requires pythonnet library
     for loading external module on your python process
     
-    # for more information about pythonnet,
-    # document page - https://pypi.org/project/pythonnet/
+    for more information about pythonnet,
+    document page - https://pypi.org/project/pythonnet/
 
     also, you can look around reference files with below variables
         1. __dll_dir__ : dll files stored directory variable
@@ -107,8 +106,8 @@ class ActivityLinker(object):
     these should require workflow invoke method ("workflow invoker" invokes "activity instance")
     so this activity linker class helps develepers to use these methods little bit easier
 
-    # for more information about microsoft's windows workflow foundation,
-    # document page - https://docs.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/ 
+    for more information about microsoft's windows workflow foundation,
+    document page - https://docs.microsoft.com/ko-kr/dotnet/framework/windows-workflow-foundation/
     '''
 
     DIRECTION_IN = 0
