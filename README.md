@@ -26,9 +26,9 @@ as i fascinated on selector system, made linker library based on uipath. this li
 
 ​	assembly linker class helps you to load assemblies for using uipath activities (Community Edition, Version=20.10.7585.27318), and it could be using without uipath installation. thus, this class requires pythonnet library for loading external module on your python process. also, you can look around reference files with below variables
 
-​	- \__dll_dir__ : dll files stored directory variable
+​	- \_\_dll_dir\_\_ : dll files stored directory variable
 
-​	- \__nupkg_dir__ : nuget packages stored directory variable
+​	- \_\_nupkg_dir\_\_ : nuget packages stored directory variable
 
 for more information about pythonnet, document page - https://pypi.org/project/pythonnet/
 
