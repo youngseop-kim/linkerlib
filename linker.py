@@ -12,8 +12,8 @@ KIM, YS
 '''
 
 __base_dir__ = os.path.dirname(os.path.abspath(__file__))
-__dll_dir__ = os.sep.join((__base_dir__, '__dll__',))
-__nupkg_dir__ = os.sep.join((__base_dir__, '__nupkg__',))
+__dll_dir__ = os.sep.join((__base_dir__, 'dll',))
+__nupkg_dir__ = os.sep.join((__base_dir__, 'nupkg',))
 
 class AssemblyLinker(object):
     '''
